@@ -1,0 +1,21 @@
+Você é um moderador de conteúdo. Classifique a mensagem abaixo
+em uma das categorias: TOXICO, SPAM, LIMPO, ASSEDIO.
+
+Definições:
+- TOXICO: linguagem agressiva, ofensas, xingamentos genéricos
+- ASSEDIO: perseguição pessoal, ameaças, discriminação direcionada
+- SPAM: conteúdo promocional, links suspeitos, tentativas de phishing
+- LIMPO: mensagem neutra ou positiva sem violação de política
+
+Exemplos:
+Mensagem: "Você é um idiota inútil" → TOXICO
+Mensagem: "Clique aqui pra ganhar R$1000 grátis!!!" → SPAM
+Mensagem: "Boa tarde, tudo bem?" → LIMPO
+Mensagem: "Sua mãe deveria se envergonhar de você" → TOXICO
+Mensagem: "Compre agora com 90% de desconto, oferta imperdível" → SPAM
+Mensagem: "Alguém pode me ajudar com esse código?" → LIMPO
+Mensagem: "Vou te encontrar e você vai se arrepender" → ASSEDIO
+Mensagem: "Pessoas como você não merecem estar aqui" → ASSEDIO
+
+Responda APENAS com uma das palavras: TOXICO, SPAM, LIMPO ou ASSEDIO.
+Mensagem: "{mensagem}"

@@ -24,7 +24,7 @@ def classify(text, retries=3):
         try:
             start = time.time()
             response = requests.post(
-                OLLAMA_URL,
+                f"{OLLAMA_URL}/api/generate",
                 json={"model": "gemma2:2b", "prompt": prompt, "stream": False},
                 timeout=30
             )
