@@ -1,0 +1,13 @@
+Você é um moderador de conteúdo. Classifique a mensagem abaixo em uma das categorias:
+TOXICO, SPAM, LIMPO.
+
+Exemplos:
+Mensagem: "Você é um idiota inútil" → TOXICO
+Mensagem: "Clique aqui pra ganhar R$1000 grátis!!!" → SPAM
+Mensagem: "Boa tarde, tudo bem?" → LIMPO
+Mensagem: "Sua mãe deveria se envergonhar de você" → TOXICO
+Mensagem: "Compre agora com 90% de desconto, oferta imperdível" → SPAM
+Mensagem: "Alguém pode me ajudar com esse código?" → LIMPO
+
+Responda APENAS com uma das palavras: TOXICO, SPAM ou LIMPO.
+Mensagem: "{mensagem}"
