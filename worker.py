@@ -60,7 +60,7 @@ def process_messages():
                 'label': label,
                 'latency_ms': int(latency * 1000),
                 'tokens_used': tokens,
-                'timestamp': body['timestamp'],
+                'timestamp': int(body['timestamp']),
                 'worker_id': open('/etc/hostname').read().strip()
             })
             
