@@ -24,8 +24,8 @@ def classify(text, retries=3):
         try:
             start = time.time()
             response = requests.post(
-                'http://<OLLAMA-IP>:11434/api/generate',
-                json={"model": "gemma3:2b", "prompt": prompt, "stream": False},
+                OLLAMA_URL,
+                json={"model": "gemma2:2b", "prompt": prompt, "stream": False},
                 timeout=30
             )
             latency = time.time() - start
